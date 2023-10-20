@@ -13,7 +13,7 @@ public class Lego {
                 grid[row][column] = input.nextInt();
             }
         }
-
+        input.close();
         int[][] dp = new int[gridSizeRow][gridSizeColumns];
 
         for (int i = 0; i < gridSizeRow; i++) {
